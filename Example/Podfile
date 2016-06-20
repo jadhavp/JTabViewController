@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JTabViewController_Example' do
+  pod 'JTabViewController', :path => '../'
+
+  target 'JTabViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
