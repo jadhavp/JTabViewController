@@ -1,0 +1,16 @@
+PODS:
+  - JTabViewController (0.1.0)
+
+DEPENDENCIES:
+  - JTabViewController (from `/Users/pramodjadhav/Documents/Repos/Personal/MY PODS/Swipe/JTabViewController/`)
+
+EXTERNAL SOURCES:
+  JTabViewController:
+    :path: "/Users/pramodjadhav/Documents/Repos/Personal/MY PODS/Swipe/JTabViewController/"
+
+SPEC CHECKSUMS:
+  JTabViewController: f73cbdcaefdb49cb48d32e5f5760e1f4bb7a011e
+
+PODFILE CHECKSUM: 02dce625c8e322b6e128b24ebadf620489af463a
+
+COCOAPODS: 1.0.1

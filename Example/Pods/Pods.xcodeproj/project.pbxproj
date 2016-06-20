@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C0385EC95CB894C84DB47AF5B4E13B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		446B01AE225134230F8C3327E9E19A97 /* Pods-JTabViewControllerExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1352B3E07CACC0411D869F56D55B09BE /* Pods-JTabViewControllerExample-dummy.m */; };
+		892636B9A0C27CC4ED1B32AC0B0296DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		916F32C1980E1E0CAF2D14D2B419E704 /* JTabViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E140FE332C50D662588D71A32D1E57 /* JTabViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF244B6EFE398D54E92AD259DA1B0256 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF8DF53667AD6E69ADA2E3B08ECAB49 /* ReplaceMe.m */; };
+		C7D05B70E54786D339DE509C4841691F /* JTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA71D39B9281FF990C6283048048AE4 /* JTabViewController.m */; };
+		C82C033E77B2A68982A036AB3210EC0E /* JTabViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6465AC4D5E858689934239DE929C0166 /* JTabViewController-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20D3B44DA1D551AA560B65F014771338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63A8FCCBAC61C8B09D0FC9BB32BA3695;
+			remoteInfo = JTabViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06A03D48267D720D25E148540F17B29D /* JTabViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTabViewController-prefix.pch"; sourceTree = "<group>"; };
+		11597DC32A55663B4390A306C98B6EB1 /* Pods-JTabViewControllerExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JTabViewControllerExample-resources.sh"; sourceTree = "<group>"; };
+		1352B3E07CACC0411D869F56D55B09BE /* Pods-JTabViewControllerExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JTabViewControllerExample-dummy.m"; sourceTree = "<group>"; };
+		243811FE3CD0786B599F2DCB91935126 /* libPods-JTabViewControllerExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JTabViewControllerExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3A0FD2E5EE96B628674CDB41932679 /* libJTabViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJTabViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA8CB8ECC7834492005BE9F881F4CAC /* Pods-JTabViewControllerExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JTabViewControllerExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		3EF8DF53667AD6E69ADA2E3B08ECAB49 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		6465AC4D5E858689934239DE929C0166 /* JTabViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTabViewController-dummy.m"; sourceTree = "<group>"; };
+		74BC538D82390B997CBEC6F9E7494527 /* JTabViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTabViewController.xcconfig; sourceTree = "<group>"; };
+		87962C43F5C6D9040E7767DA2198229B /* Pods-JTabViewControllerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTabViewControllerExample.debug.xcconfig"; sourceTree = "<group>"; };
+		8CA71D39B9281FF990C6283048048AE4 /* JTabViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JTabViewController.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		968D4ECC03B87E80653320F92807C92C /* Pods-JTabViewControllerExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JTabViewControllerExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1A23AD696BB2C40CC560A71B0D58B6D /* Pods-JTabViewControllerExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JTabViewControllerExample-frameworks.sh"; sourceTree = "<group>"; };
+		E5E140FE332C50D662588D71A32D1E57 /* JTabViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JTabViewController.h; sourceTree = "<group>"; };
+		FA50EC651F8E999A7B8926A5E4722E36 /* Pods-JTabViewControllerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JTabViewControllerExample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE151EDFA120D45398D9D007C06E7B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C0385EC95CB894C84DB47AF5B4E13B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2CD210F17DBF710AFED5AC1D5C57C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892636B9A0C27CC4ED1B32AC0B0296DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08E39F0ADA83B06127F49C35E7AEE80E /* JTabViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C71222BF4DAEAFBE5A93E2175AD444C4 /* Classes */,
+			);
+			path = JTabViewController;
+			sourceTree = "<group>";
+		};
+		272A98D16B46A5F865CC371E69BFF353 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74BC538D82390B997CBEC6F9E7494527 /* JTabViewController.xcconfig */,
+				6465AC4D5E858689934239DE929C0166 /* JTabViewController-dummy.m */,
+				06A03D48267D720D25E148540F17B29D /* JTabViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JTabViewController";
+			sourceTree = "<group>";
+		};
+		29ABACA063A3B38DA393AD5EDBD81799 /* Pods-JTabViewControllerExample */ = {
+			isa = PBXGroup;
+			children = (
+				968D4ECC03B87E80653320F92807C92C /* Pods-JTabViewControllerExample-acknowledgements.markdown */,
+				3EA8CB8ECC7834492005BE9F881F4CAC /* Pods-JTabViewControllerExample-acknowledgements.plist */,
+				1352B3E07CACC0411D869F56D55B09BE /* Pods-JTabViewControllerExample-dummy.m */,
+				D1A23AD696BB2C40CC560A71B0D58B6D /* Pods-JTabViewControllerExample-frameworks.sh */,
+				11597DC32A55663B4390A306C98B6EB1 /* Pods-JTabViewControllerExample-resources.sh */,
+				87962C43F5C6D9040E7767DA2198229B /* Pods-JTabViewControllerExample.debug.xcconfig */,
+				FA50EC651F8E999A7B8926A5E4722E36 /* Pods-JTabViewControllerExample.release.xcconfig */,
+			);
+			name = "Pods-JTabViewControllerExample";
+			path = "Target Support Files/Pods-JTabViewControllerExample";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				917E2D610690B51A79EA81F057BD86A2 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F580DC3F326323FD629E224E6CF0F723 /* Products */,
+				C07C2C0964E38B873FC53CA66FE20D3D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		917E2D610690B51A79EA81F057BD86A2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD95CE52CA0ECDF78AD8957BAD226942 /* JTabViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AD95CE52CA0ECDF78AD8957BAD226942 /* JTabViewController */ = {
+			isa = PBXGroup;
+			children = (
+				08E39F0ADA83B06127F49C35E7AEE80E /* JTabViewController */,
+				272A98D16B46A5F865CC371E69BFF353 /* Support Files */,
+			);
+			name = JTabViewController;
+			path = "/Users/pramodjadhav/Documents/Repos/Personal/MY PODS/Swipe/JTabViewController";
+			sourceTree = "<absolute>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C07C2C0964E38B873FC53CA66FE20D3D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29ABACA063A3B38DA393AD5EDBD81799 /* Pods-JTabViewControllerExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C71222BF4DAEAFBE5A93E2175AD444C4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E5E140FE332C50D662588D71A32D1E57 /* JTabViewController.h */,
+				8CA71D39B9281FF990C6283048048AE4 /* JTabViewController.m */,
+				3EF8DF53667AD6E69ADA2E3B08ECAB49 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F580DC3F326323FD629E224E6CF0F723 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D3A0FD2E5EE96B628674CDB41932679 /* libJTabViewController.a */,
+				243811FE3CD0786B599F2DCB91935126 /* libPods-JTabViewControllerExample.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A7E337A24D7BD3063F4A08890EF77C36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916F32C1980E1E0CAF2D14D2B419E704 /* JTabViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A7D9D540127CF838FEF39430F350DA2 /* Pods-JTabViewControllerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7063B9F3EE8F6E7BD769B3CC822989 /* Build configuration list for PBXNativeTarget "Pods-JTabViewControllerExample" */;
+			buildPhases = (
+				ACDB292A2CD61122F357CBFE121F8B43 /* Sources */,
+				F2CD210F17DBF710AFED5AC1D5C57C1B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4762C9573102702EB5CB97610AAC7023 /* PBXTargetDependency */,
+			);
+			name = "Pods-JTabViewControllerExample";
+			productName = "Pods-JTabViewControllerExample";
+			productReference = 243811FE3CD0786B599F2DCB91935126 /* libPods-JTabViewControllerExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		63A8FCCBAC61C8B09D0FC9BB32BA3695 /* JTabViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9865A98F3F3385E7620CA15EA988A7 /* Build configuration list for PBXNativeTarget "JTabViewController" */;
+			buildPhases = (
+				9A24E9F0156A09DB71D02EE130E736F3 /* Sources */,
+				AE151EDFA120D45398D9D007C06E7B26 /* Frameworks */,
+				A7E337A24D7BD3063F4A08890EF77C36 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTabViewController;
+			productName = JTabViewController;
+			productReference = 3D3A0FD2E5EE96B628674CDB41932679 /* libJTabViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F580DC3F326323FD629E224E6CF0F723 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63A8FCCBAC61C8B09D0FC9BB32BA3695 /* JTabViewController */,
+				0A7D9D540127CF838FEF39430F350DA2 /* Pods-JTabViewControllerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A24E9F0156A09DB71D02EE130E736F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82C033E77B2A68982A036AB3210EC0E /* JTabViewController-dummy.m in Sources */,
+				C7D05B70E54786D339DE509C4841691F /* JTabViewController.m in Sources */,
+				AF244B6EFE398D54E92AD259DA1B0256 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDB292A2CD61122F357CBFE121F8B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446B01AE225134230F8C3327E9E19A97 /* Pods-JTabViewControllerExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4762C9573102702EB5CB97610AAC7023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JTabViewController;
+			target = 63A8FCCBAC61C8B09D0FC9BB32BA3695 /* JTabViewController */;
+			targetProxy = 20D3B44DA1D551AA560B65F014771338 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F64160CD61D2161F7F50EDEA9CCF0F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74BC538D82390B997CBEC6F9E7494527 /* JTabViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JTabViewController/JTabViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		84FD87D359382A37B07149A12641B965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		89CD673C0B6BAA8D44D87525CEA12244 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87962C43F5C6D9040E7767DA2198229B /* Pods-JTabViewControllerExample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DB6A0560F3FFE3D15A059FCCF1AE5FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA50EC651F8E999A7B8926A5E4722E36 /* Pods-JTabViewControllerExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F43811FD6C54084D50F3A0459053CB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74BC538D82390B997CBEC6F9E7494527 /* JTabViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JTabViewController/JTabViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F594C655D48020EC34B00AA63E001773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FD87D359382A37B07149A12641B965 /* Debug */,
+				F594C655D48020EC34B00AA63E001773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A7063B9F3EE8F6E7BD769B3CC822989 /* Build configuration list for PBXNativeTarget "Pods-JTabViewControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89CD673C0B6BAA8D44D87525CEA12244 /* Debug */,
+				DB6A0560F3FFE3D15A059FCCF1AE5FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA9865A98F3F3385E7620CA15EA988A7 /* Build configuration list for PBXNativeTarget "JTabViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F64160CD61D2161F7F50EDEA9CCF0F1 /* Debug */,
+				F43811FD6C54084D50F3A0459053CB9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
