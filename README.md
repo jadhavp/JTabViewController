@@ -1,9 +1,5 @@
 # JTabViewController
 
-[![CI Status](http://img.shields.io/travis/Pramod Jadhav/JTabViewController.svg?style=flat)](https://travis-ci.org/Pramod Jadhav/JTabViewController)
-[![Version](https://img.shields.io/cocoapods/v/JTabViewController.svg?style=flat)](http://cocoapods.org/pods/JTabViewController)
-[![License](https://img.shields.io/cocoapods/l/JTabViewController.svg?style=flat)](http://cocoapods.org/pods/JTabViewController)
-[![Platform](https://img.shields.io/cocoapods/p/JTabViewController.svg?style=flat)](http://cocoapods.org/pods/JTabViewController)
 
 ## Example
 
@@ -22,7 +18,7 @@ pod "JTabViewController"
 
 ## Author
 
-Pramod Jadhav, jadhav.pramod.a@gmail.com
+jadhavp
 
 ## License
 
