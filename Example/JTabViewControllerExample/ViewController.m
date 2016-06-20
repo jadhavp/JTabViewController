@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <JTabViewController.h>
 
 @interface ViewController ()
 
@@ -16,12 +17,33 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+}
+
+-(NSArray *)dummyViewControllers{
+    
+    NSArray * colors = @[[UIColor redColor],[UIColor purpleColor],[UIColor orangeColor],[UIColor blueColor]];
+    NSMutableArray * vcs = [NSMutableArray new];
+    for (UIColor * color in colors) {
+        
+        UIViewController * vc = [[UIViewController alloc] init];
+        vc.view.backgroundColor = color;
+        [vcs addObject:vc];
+    }
+    return [NSArray arrayWithArray:vcs];
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    JTabViewController * jtc = [[JTabViewController alloc]
+                                initWitViewControllers:[self dummyViewControllers]
+                                tabTitles:@[@"First",@"Second",@"Third",@"Four"]];
+    UINavigationController * navVC = [[UINavigationController alloc] initWithRootViewController:jtc];
+    [self presentViewController:navVC animated:YES completion:^{
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
