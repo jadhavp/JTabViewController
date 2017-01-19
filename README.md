@@ -18,7 +18,7 @@ pod "JTabViewController"
 
 ## Author
 
-jadhavp
+Pramod Jadhav
 
 ## License
 
